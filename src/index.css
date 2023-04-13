@@ -1,0 +1,25 @@
+:root {
+  font-family: 'Chivo Mono', monospace;
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+}
+
+a {
+  text-decoration: inherit;
+  color: rgb(45, 243, 108);
+  padding: 0.2rem;
+}
+
+a:hover{
+  outline: 1px solid rgb(45, 243, 108);
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+  background-color: #050516;
+}
